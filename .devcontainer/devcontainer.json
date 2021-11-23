@@ -1,0 +1,15 @@
+{
+	"name": "Java",
+	"image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+	"features": {
+		"desktop-lite": "latest",
+		"java": "8"
+	},
+	"forwardPorts": [6080],
+	"portsAttributes": {
+		"6080": {
+			"label": "VNC",
+			"onAutoForward": "openBrowser"
+		}
+	}
+}
